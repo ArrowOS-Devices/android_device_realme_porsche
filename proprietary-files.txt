@@ -156,6 +156,11 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/libbtnv.so
 vendor/lib64/libsoc_helper.so
 
+# Bluetooth Firmware
+odm/etc/bt/hpnv10.bin
+odm/etc/bt/hpnv10_1.bin
+odm/etc/bt/second_rf.conf
+
 # Bluetooth (A2DP)
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so
@@ -1755,6 +1760,20 @@ odm/lib64/android.hardware.secure_element@1.0-impl.so
 
 # Sensors
 odm/bin/oplus_sensor_fb
+odm/etc/sensor/config/lahaina_aw9610x_0.json
+odm/etc/sensor/config/lahaina_aw9610x_down_0.json
+odm/etc/sensor/config/lahaina_bmp380.json
+odm/etc/sensor/config/lahaina_lps22hb.json
+odm/etc/sensor/config/lahaina_qrd_ak0991x.json
+odm/etc/sensor/config/lahaina_qrd_alsps.json
+odm/etc/sensor/config/lahaina_qrd_bmi16x.json
+odm/etc/sensor/config/lahaina_qrd_cct_rear.json
+odm/etc/sensor/config/lahaina_qrd_icm4x6xx.json
+odm/etc/sensor/config/lahaina_qrd_mmc56x3x.json
+odm/etc/sensor/config/lahaina_qrd_sx932x.json
+odm/etc/sensor/config/lahaina_qrd_sx932x_down.json
+odm/etc/sensor/config/lahaina_tcs3707.json
+odm/etc/sensor/sensor_config.json
 odm/lib64/liboplus_service.so
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
 vendor/bin/init.qcom.sensors.sh
@@ -2014,6 +2033,7 @@ odm/etc/wifi/regdb.bin
 odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
 vendor/bin/cnss-daemon
 vendor/etc/init/init.vendor.wlan.rc
+odm/etc/wifi/bdwlan.elf
 vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/etc/wifi/wpa_supplicant_overlay.conf
 
