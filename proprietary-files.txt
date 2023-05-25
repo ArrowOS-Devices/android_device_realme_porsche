@@ -2,6 +2,13 @@
 ## from OnePlus 9 Pro (LE2125_13.1.0.500(EX01)).
 
 # ACDBs
+odm/etc/acdbdata/Bluetooth_cal.acdb
+odm/etc/acdbdata/General_cal.acdb
+odm/etc/acdbdata/Global_cal.acdb
+odm/etc/acdbdata/Handset_cal.acdb
+odm/etc/acdbdata/Hdmi_cal.acdb
+odm/etc/acdbdata/Headset_cal.acdb
+odm/etc/acdbdata/Speaker_cal.acdb
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.10.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.00.pmd
