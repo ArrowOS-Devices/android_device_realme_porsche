@@ -309,12 +309,12 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
-    CarrierConfigResCommon \
-    FrameworksResTarget \
-    OPlusFrameworksResCommon \
-    OPlusSettingsResCommon \
-    OPlusSystemUIResCommon \
-    WifiResTarget
+    PorscheCarrierConfigOverlay \
+    PorscheFrameworksOverlay \
+    PorscheOPlusFrameworksOverlay \
+    PorscheOPlusSettingsOverlay \
+    PorscheOPlusSystemUIOverlay \
+    PorscheWifiOverlay
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true

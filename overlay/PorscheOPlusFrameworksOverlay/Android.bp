@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "OPlusFrameworksResCommon",
+    name: "PorscheOPlusFrameworksOverlay",
     device_specific: true,
 }

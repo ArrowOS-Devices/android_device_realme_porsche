@@ -4,6 +4,7 @@
 //
 
 runtime_resource_overlay {
-    name: "FrameworksResTarget",
-    vendor: true,
+    name: "PorscheCarrierConfigOverlay",
+    aaptflags: ["--keep-raw-values"],
+    product_specific: true,
 }
